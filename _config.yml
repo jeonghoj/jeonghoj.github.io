@@ -17,8 +17,7 @@
 title: JJ's Blog
 email: jeonghoj94@gmail.com
 author: Jeongho Jang
-description: > # this means to ignore newlines until "baseurl:"
-  블로그
+description: "블로그" # this means to ignore newlines until "baseurl:"
 
 # DO NOT CHANGE THE LINE OF THIS FILE without editing .circleci/circle_urls.sh
 # baseurl: "/mkdocs-jekyll" # the subpath of your site, e.g. /blog
@@ -33,23 +32,23 @@ github_user: "jeonghoj"
 github_repo: "jeonghoj.github.io"
 
 # Optional
-twitter: vsoch
-linkedin: vsochat
-dockerhub: vanessa
+# twitter: vsoch
+# linkedin: vsochat
+# dockerhub: vanessa
 # google-analytics: UA-XXXXXXXXXX
 google-analytics: G-WS7HCVJ60Y
 # Image and (square) dimension for logo (don't start with /)
 # If commented, will use material hat theme
 # logo: "assets/img/logo/SRCC-square-red.png"
 logo_width: 34
-color: "#8c1515" # primary color for header, buttons
-
+# color: "#8c1515" # primary color for header, buttons
+color: "#000000"
 # Build settings
 markdown: kramdown
 
 # If you add tags to pages, you can link them to some external search
 # If you want to disable this, comment the URL.
-tag_search_endpoint: https://ask.cyberinfrastructure.org/search?q=
+# tag_search_endpoint: https://ask.cyberinfrastructure.org/search?q=
 tag_color: danger # danger, success, warning, primary, info, secondary
 
 # Add a page at /forum to list a set of discourse topics. The site needs
